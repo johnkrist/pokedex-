@@ -1,0 +1,29 @@
+.ul__container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.btn__container{
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+.btn__container button{
+   border: none;
+    background-color: #fff;
+    cursor: pointer;
+    align-items: center;
+    
+}
+.btn__container button:hover{
+    size: 30px;
+}
+.span__loading{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 100px;
+}

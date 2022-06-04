@@ -1,0 +1,40 @@
+.li__ball {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px 20px 0;
+  padding: 5px;
+  width: 152px;
+  height: 108px;
+}
+.div__container__ball {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 12px;
+}
+.img__pokeball {
+  width: 90px;
+  height: 90px;
+}
+.grama {
+  align-items: center;
+  width: 140px;
+  height: 100px;
+  position: absolute;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .img__pokeball {
+    animation: pokeball-spin infinite 30s linear;
+  }
+}
+
+@keyframes pokeball-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
