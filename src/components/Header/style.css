@@ -2,8 +2,7 @@
   display: flex;
   justify-content: space-between;
   color:#ffffff;
- 
-  justify-content: space-between;
+   justify-content: space-between;
   max-width: 1500px;
   height: 154px;
   border-radius: 0px 0px 24px 24px;
@@ -29,22 +28,19 @@
   line-height: 17px;
   color: #ffffff;
 }
-
- 
-  
-
 .menu__container{
   color:#ffffff;
 display: flex;
 gap: 50px;
-
- 
-}
+ }
 .menu__container li {
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
 font-size: 25px;
 line-height: 34px;
+}
+.username{
+  font-size: 26px;
 }
 

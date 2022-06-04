@@ -6,6 +6,7 @@
   padding: 5px;
   width: 152px;
   height: 108px;
+  cursor: pointer;
 }
 .div__container__ball {
   display: flex;
@@ -17,7 +18,7 @@
 .img__pokeball {
   width: 90px;
   height: 90px;
-}
+  }
 .grama {
   align-items: center;
   width: 140px;
